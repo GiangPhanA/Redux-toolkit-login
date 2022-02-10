@@ -1,10 +1,11 @@
 import './App.css';
+import Header from './components/Header';
 import CounterFeature from './features/Counter'
 
 function App() {
   return (
     <div className="App">
-      <h1>Giang Phan</h1>
+      <Header />
       <CounterFeature />
     </div>
   );
